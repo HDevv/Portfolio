@@ -1,0 +1,20 @@
+img {
+  width: 20%;
+}
+.nbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-left: auto;
+  color: aliceblue;
+}
+
+.nbar div {
+  color: #bc9c22;
+}
+
+.nbar:hover a {
+  color: aqua;
+}
