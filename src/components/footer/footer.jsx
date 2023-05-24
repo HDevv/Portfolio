@@ -8,25 +8,33 @@ const footer = () => {
     <footer className="footer">
       <div className="container">
         <Link to={"https://twitter.com/ash___dev"}>
-          <i id="twitter">
-            <FaTwitter />
-          </i>
+          <div className="icon">
+            <i id="twitter">
+              <FaTwitter />
+            </i>
+          </div>
         </Link>
         <Link to={"https://github.com/Hicham017"}>
-          <i id="github">
-            <FaGithub />
-          </i>
+          <div className="icon">
+            <i id="github">
+              <FaGithub />
+            </i>
+          </div>
         </Link>
         <Link to={"https://www.linkedin.com/in/hicham-roldan-152a051b6/"}>
-          <i id="linkedin">
-            <FaLinkedinIn />
-          </i>
+          <div className="icon">
+            <i id="linkedin">
+              <FaLinkedinIn />
+            </i>
+          </div>
         </Link>
 
         <Link>
-          <i id="mail">
-            <FaEnvelope />
-          </i>
+          <div className="icon">
+            <i id="mail">
+              <FaEnvelope />
+            </i>
+          </div>
         </Link>
       </div>
     </footer>
