@@ -1,6 +1,7 @@
 import React from "https://cdn.skypack.dev/react";
 import ReactDOM from "https://cdn.skypack.dev/react-dom";
 import "../skills/skills.css";
+import ResponsiveImg from "../../assets/responsive.svg";
 
 const skills = () => {
   const COLORS = [
@@ -58,25 +59,31 @@ const skills = () => {
 
   const App = () => (
     <div className="skills_app">
-      <header>
-        <h1>- SKILLS -</h1>
-        <p>languages and tools that I use most often since my beginnings</p>
-      </header>
-      <div className="tag-list">
-        {[...new Array(ROWS)].map((_, i) => (
-          <InfiniteLoopSlider
-            key={i}
-            duration={random(DURATION - 5000, DURATION + 5000)}
-            reverse={i % 2}
-          >
-            {shuffle(TAGS)
-              .slice(0, TAGS_PER_ROW)
-              .map((tag) => (
-                <Tag text={tag} key={tag} />
-              ))}
-          </InfiniteLoopSlider>
-        ))}
-        <div className="fade" />
+      <div className="skills_container">
+        <header>
+          <h1>- SKILLS -</h1>
+          <p>languages and tools that I use most often since my beginnings</p>
+        </header>
+        <div className="tag-list">
+          {[...new Array(ROWS)].map((_, i) => (
+            <InfiniteLoopSlider
+              key={i}
+              duration={random(DURATION - 5000, DURATION + 5000)}
+              reverse={i % 2}
+            >
+              {shuffle(TAGS)
+                .slice(0, TAGS_PER_ROW)
+                .map((tag) => (
+                  <Tag text={tag} key={tag} />
+                ))}
+            </InfiniteLoopSlider>
+          ))}
+          <div className="fade" />
+        </div>
+      </div>
+      <div className="responsive_container">
+        <p>Responsive</p>
+        <img className="resp_img" src={ResponsiveImg} alt="" />
       </div>
     </div>
   );

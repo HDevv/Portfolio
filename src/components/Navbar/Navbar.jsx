@@ -1,15 +1,17 @@
 import React from "react";
 import hr_logo from "../../assets/HR_logo.png";
-import { Navigate } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "../Navbar/Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="nbar">
       <img src={hr_logo} alt="" />
-      <div className="skills">
-        <a>SKILLS</a>
-      </div>
+      <Link to="/skills">
+        <div className="skills">
+          <a>SKILLS</a>
+        </div>
+      </Link>
       <div className="projects">
         <a>PROJECTS</a>
       </div>
