@@ -82,7 +82,13 @@ const skills = () => {
         </div>
       </div>
       <div className="responsive_container">
-        <p>Responsive</p>
+        <h3>Responsive</h3>
+        <p>
+          🔸I am able to adapt a site for each screen size, which includes the
+          desktop format (classic site), the tablet format as well as the mobile
+          format, which is in high demand thanks to the preponderance of the use
+          of smartphones🔸
+        </p>
         <img className="resp_img" src={ResponsiveImg} alt="" />
       </div>
     </div>
