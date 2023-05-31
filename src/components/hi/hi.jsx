@@ -11,9 +11,8 @@ const hi = () => {
         </h2>
         <p>A full stack web developer</p>
         <p>
-          I can design exactly the site and logo you want, <hr />
-          visually express your desires <hr /> and help you stand out from the
-          competition
+          I can design exactly the site and logo you want, visually express your
+          desires and help you stand out from the competition
         </p>
       </div>
       <img className="hi_img" src={Hi_img} />

@@ -130,3 +130,23 @@ header p {
     transform: translateX(-50%);
   }
 }
+
+/* VERSION TAB */
+
+@media (max-width: 1125px) {
+  .skills_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills_container {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .responsive_container {
+    padding-bottom: 2rem;
+  }
+}
+
+/* VERSION MOBILE */

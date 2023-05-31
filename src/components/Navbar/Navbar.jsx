@@ -8,19 +8,11 @@ const Navbar = () => {
     <nav className="nbar">
       <img src={hr_logo} alt="" />
       <Link to="/skills">
-        <div className="skills">
-          <a>SKILLS</a>
-        </div>
+        <div className="skills">SKILLS</div>
       </Link>
-      <div className="projects">
-        <a>PROJECTS</a>
-      </div>
-      <div className="about_me">
-        <a>ABOUT ME</a>
-      </div>
-      <div className="contact">
-        <a>CONTACT</a>
-      </div>
+      <div className="projects">PROJECTS</div>
+      <div className="about_me">ABOUT ME</div>
+      <div className="contact">CONTACT</div>
     </nav>
   );
 };
