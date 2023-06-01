@@ -3,6 +3,7 @@ footer {
   flex-direction: column;
   background: #aa912f;
   margin-top: 8rem;
+  margin-bottom: 0;
 }
 
 .container {
