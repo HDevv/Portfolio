@@ -73,8 +73,8 @@ const projects = () => {
       });
   }, []);
   return (
-    <div>
-      <div className="header" id="top">
+    <div className="pro_cont">
+      <div className="pro_header" id="top">
         <h1>Scroll Down</h1>
         <i className="fa fa-angle-down animated bounce"></i>
       </div>
@@ -182,7 +182,7 @@ fit=crop&w=250&h=250&q=80"
         </div>
       </div>
 
-      <div className="footer">
+      <div className="pro_footer">
         <a href="#top" className="scrollTo">
           <i className="fa fa-angle-up animated bounce"></i>
         </a>
