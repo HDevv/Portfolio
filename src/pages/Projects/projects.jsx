@@ -2,7 +2,9 @@ import React from "react";
 import "./projects.scss";
 import { ReactDOM } from "react";
 import { useEffect } from "react";
-
+import WebFit_a from "../../assets/webfit-a.png";
+import WebFit_b from "../../assets/webfit-b.png";
+import Kasa from "../../assets/KASA-a.png";
 const projects = () => {
   useEffect(() => {
     const sm = 480;
@@ -79,17 +81,19 @@ const projects = () => {
         <i className="fa fa-angle-down animated bounce"></i>
       </div>
 
+      {/* WEBFIT */}
+
       <div className="section animate">
         <div className="middle">
-          <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={WebFit_a} />
         </div>
         <div className="left title">
           <div className="content">
-            <h2>A glorious nature shot.</h2>
+            <h2>WebFit</h2>
             <p>
-              Wow. What a wonderful image. And look! there are even more images
-              on the right side. Amazing. If you click below, I bet you'll get
-              teleported to a magical land.
+              Un site de coaching interactif, alliant un design élégant et une
+              expérience utilisateur fluide pour atteindre vos objectifs en
+              toute simplicité.
             </p>
             <a href="#" className="btn-primary">
               Learn more
@@ -97,16 +101,15 @@ const projects = () => {
           </div>
         </div>
         <div className="right tiles">
-          <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={WebFit_b} />
         </div>
       </div>
 
+      {/* KASA */}
+
       <div className="section">
         <div className="middle">
-          <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={Kasa} />
         </div>
         <div className="right title">
           <div className="content">
