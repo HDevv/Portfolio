@@ -4,7 +4,10 @@ import { ReactDOM } from "react";
 import { useEffect } from "react";
 import WebFit_a from "../../assets/webfit-a.png";
 import WebFit_b from "../../assets/webfit-b.png";
-import Kasa from "../../assets/KASA-a.png";
+import Kasa_a from "../../assets/Kasa-a.png";
+import Kasa_b from "../../assets/Kasa-b.png";
+import Ohmyfood from "../../assets/Ohmf.png";
+
 const projects = () => {
   useEffect(() => {
     const sm = 480;
@@ -109,35 +112,25 @@ const projects = () => {
 
       <div className="section">
         <div className="middle">
-          <img src={Kasa} />
+          <img src={Kasa_b} />
         </div>
         <div className="right title">
           <div className="content">
-            <h2>Check out this guy.</h2>
-            <p>
-              What an interesting looking person! I wonder if they've ever
-              climbed Mount Everest, or seen the Egyptian Pyramids. If not, I
-              hope that one day they get to. You go random stock image person!
-              Follow your dreams!
-            </p>
+            <h2>Real estate rental web application</h2>
+            <p>made with react from a Figma model</p>
           </div>
         </div>
 
         <div className="left tiles">
-          <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img
-            src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67
-
-e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80"
-          />
-          <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={Kasa_a} />
         </div>
       </div>
 
+      {/* OHMYFOOD */}
+
       <div className="section">
         <div className="middle">
-          <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={Ohmyfood} alt="" />
         </div>
         <div className="left title">
           <div className="content">
@@ -151,10 +144,7 @@ e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80"
         </div>
 
         <div className="right tiles">
-          <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={Ohmyfood} />
         </div>
       </div>
 
