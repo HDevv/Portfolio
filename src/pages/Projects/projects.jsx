@@ -94,9 +94,9 @@ const projects = () => {
           <div className="content">
             <h2>WebFit</h2>
             <p>
-              Un site de coaching interactif, alliant un design élégant et une
+              un site de coaching interactif, alliant un design élégant et une
               expérience utilisateur fluide pour atteindre vos objectifs en
-              toute simplicité.
+              toute simplicité
             </p>
             <a href="#" className="btn-primary">
               Learn more
@@ -134,12 +134,8 @@ const projects = () => {
         </div>
         <div className="left title">
           <div className="content">
-            <h2>That is one pretty building.</h2>
-            <p>
-              I once thought about becoming an architect. I wanted to create a
-              house fit for a king. But then I failed maths. So I became a
-              frontend developer instead.
-            </p>
+            <h2>Ohmyfood</h2>
+            <p>dynamic web page with CSS and responsive animations</p>
           </div>
         </div>
 

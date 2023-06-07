@@ -13,7 +13,10 @@ const Navbar = () => {
       <Link to="/projects">
         <div className="projects">PROJECTS</div>
       </Link>
-      <div className="about_me">ABOUT ME</div>
+      <Link to="/about_me">
+        <div className="about_me">ABOUT ME</div>
+      </Link>
+
       <div className="contact">CONTACT</div>
     </nav>
   );
