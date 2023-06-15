@@ -1,101 +1,61 @@
-.form-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 400px;
-  width: 100%;
-  margin: 0 10px 0;
-  background: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  padding: 1.5rem;
-}
-
-.form-container section {
-  background: royalblue;
-  padding: 5px;
-  margin-bottom: 1.5rem;
-  transform: skew(-11deg);
-}
-
-.form-container h2 {
-  margin: 0;
-  padding: 0;
-  color: royalblue;
-  text-transform: uppercase;
+.form_title {
   text-align: center;
-  color: #fff;
-}
-
-.form-container input {
-  padding: 10px 0;
-  margin-bottom: 1rem;
-}
-
-.form-container textarea {
-  padding: 10px 0;
-  margin-bottom: 1rem;
-  height: 40px;
-}
-
-.form-container input,
-.form-container textarea {
-  font-size: 1rem;
-  width: 100%;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid #999;
-}
-
-.form-container input[type="submit"] {
-  font-family: "Open Sans Condensed", sans-serif;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  background: royalblue;
-  color: white;
-  padding: 0.8rem;
-  margin-bottom: 0;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-size: 60px;
+  color: #bc9c22;
   text-transform: uppercase;
+  letter-spacing: 6px;
 }
-
-.form-container input[type="submit"]:hover {
-  opacity: 0.9;
-}
-
-.form-container form div {
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
   position: relative;
-  margin-bottom: 1rem;
+  max-width: 840px;
 }
 
-.form-container label {
-  position: absolute;
-  top: 10px;
-  pointer-events: none;
-  left: 0;
-  color: #999;
-  transition: 500ms;
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  font-family: "Lato";
+  font-weight: 400;
+}
+.form_inputs > input,
+textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.form_inputs > input {
+  height: 35px;
+}
+.send_btn {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  background: #bc9c22;
+}
+.send_txt {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px "Lato", sans-serif;
+  letter-spacing: 2px;
 }
 
-.form-container .shrink {
-  top: -17px;
-  left: 0;
-  font-size: 1rem;
-  color: royalblue;
-  font-weight: bold;
+.send_btn_alt {
+  width: 400px;
+  height: 34px;
+  padding-top: 5px;
+  transition: all 0.2s ease-in-out;
 }
-
-.form-container input:focus,
-.form-container textarea:focus {
-  border-bottom: 2px solid royalblue;
-}
-
-.form-container input:focus ~ label,
-.form-container textarea:focus ~ label {
-  top: -17px;
-  left: 0;
-  font-size: 1rem;
-  color: royalblue;
-  font-weight: bold;
+.send_btn_alt:hover {
+  transform: translate3d(0px, -29px, 0px);
 }

@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaGithub,
   FaMapMarkerAlt,
+  FaPaperPlane,
 } from "react-icons/fa";
 
 const contact = () => {
@@ -24,12 +25,15 @@ const contact = () => {
             placeholder="MESSAGE"
             required
           ></textarea>
-          <button
-            className="send_btn"
-            id="submit"
-            type="submit"
-            value="SEND"
-          ></button>
+
+          <button className="send_btn" id="submit" type="submit" value="SEND">
+            <div className="send_btn_alt">
+              <i className="send_icon">
+                <FaPaperPlane />
+              </i>
+              <span className="send_txt">SEND</span>
+            </div>
+          </button>
         </form>
 
         {/* RIGHT */}
