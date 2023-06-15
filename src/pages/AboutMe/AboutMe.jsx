@@ -1,5 +1,6 @@
 import React from "react";
 import "./../AboutMe/AboutMe.css";
+import Meme from "../../assets/meme.jpg";
 
 const AboutMe = () => {
   return (
@@ -25,6 +26,14 @@ const AboutMe = () => {
             personal side projects
           </li>
         </ul>
+      </div>
+      <div className="meme">
+        <p className="meme_txt"></p>
+        <img
+          className="meme_img"
+          src={Meme}
+          alt="full-stack représentation with meme"
+        />
       </div>
     </div>
   );

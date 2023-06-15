@@ -1,0 +1,101 @@
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 10px 0;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+.form-container section {
+  background: royalblue;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  transform: skew(-11deg);
+}
+
+.form-container h2 {
+  margin: 0;
+  padding: 0;
+  color: royalblue;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.form-container input {
+  padding: 10px 0;
+  margin-bottom: 1rem;
+}
+
+.form-container textarea {
+  padding: 10px 0;
+  margin-bottom: 1rem;
+  height: 40px;
+}
+
+.form-container input,
+.form-container textarea {
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #999;
+}
+
+.form-container input[type="submit"] {
+  font-family: "Open Sans Condensed", sans-serif;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background: royalblue;
+  color: white;
+  padding: 0.8rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.form-container input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.form-container form div {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-container label {
+  position: absolute;
+  top: 10px;
+  pointer-events: none;
+  left: 0;
+  color: #999;
+  transition: 500ms;
+}
+
+.form-container .shrink {
+  top: -17px;
+  left: 0;
+  font-size: 1rem;
+  color: royalblue;
+  font-weight: bold;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+  border-bottom: 2px solid royalblue;
+}
+
+.form-container input:focus ~ label,
+.form-container textarea:focus ~ label {
+  top: -17px;
+  left: 0;
+  font-size: 1rem;
+  color: royalblue;
+  font-weight: bold;
+}

@@ -20,3 +20,24 @@
   list-style-type: square;
   padding-bottom: 22px;
 }
+
+.meme {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme_img {
+  position: relative;
+  width: 65%;
+  border-radius: 25px;
+  box-shadow: 10px 40px 80px -9px #aa912f;
+  transition: 0.6s ease-out;
+}
+.meme_img:hover {
+  filter: blur(10px);
+  transition: 0.4s ease-in;
+  transform: translateY(10px);
+}
