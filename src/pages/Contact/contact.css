@@ -59,3 +59,24 @@ textarea {
 .send_btn_alt:hover {
   transform: translate3d(0px, -29px, 0px);
 }
+
+.contact_list {
+  list-style-type: none;
+}
+.list_item {
+  display: flex;
+  flex-direction: row;
+  line-height: 4;
+  color: #aaa;
+  padding-left: 4rem;
+}
+.list_item > i {
+  padding-right: 1rem;
+}
+.contact_txt {
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+.contact_txt:hover {
+  color: #bc9c22;
+}

@@ -43,13 +43,13 @@ const contact = () => {
               <i id="map_icon">
                 <FaMapMarkerAlt />
               </i>
-              <span className="txt_place">Reims, FRANCE 🥐</span>
+              <span className="contact_txt place">Reims, FRANCE 🥐</span>
             </li>
             <li className="list_item">
               <i id="mail_icon">
                 <FaEnvelope />
               </i>
-              <span className="txt_mail" title="Send me en email">
+              <span className="contact_txt mail" title="Send me en email">
                 lafrg533@gmail.com
               </span>
             </li>
