@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../Contact/contact.css";
 import {
   FaTwitter,
@@ -8,14 +8,35 @@ import {
   FaMapMarkerAlt,
   FaPaperPlane,
 } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
 
 const contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_kngh",
+        "template_qjm9qc2",
+        form.current,
+        "QJL_6J8jpGAVL1FiD"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="form_container">
       <div className="form_title">CONTACT</div>
       {/* Form */}
       <div className="form">
-        <form className="form_inputs">
+        <form className="form_inputs" ref={form} onSubmit={sendEmail}>
           <input id="name" type="text" placeholder="NAME" required></input>
           <input id="email" type="email" placeholder="EMAIL" required></input>
           <textarea
