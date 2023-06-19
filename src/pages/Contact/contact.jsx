@@ -8,6 +8,7 @@ import {
   FaMapMarkerAlt,
   FaPaperPlane,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const contact = () => {
   return (
@@ -58,27 +59,33 @@ const contact = () => {
           {/* ICONES */}
 
           <ul className="social_medias_contact">
-            <li>
-              <a href="#" target="_blank" className="contact_icon">
-                <i className="c_github" aria-hidden="true">
-                  <FaGithub />
-                </i>
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" className="contact_icon">
-                <i className="c_linkedin" aria-hidden="true">
-                  <FaLinkedinIn />
-                </i>
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" className="contact_icon">
-                <i className="c_twitter" aria-hidden="true">
-                  <FaTwitter />
-                </i>
-              </a>
-            </li>
+            <Link to={"https://github.com/Hicham017"}>
+              <li>
+                <a href="#" target="_blank" className="contact_icon">
+                  <i className="c_github" aria-hidden="true">
+                    <FaGithub />
+                  </i>
+                </a>
+              </li>
+            </Link>
+            <Link to={"https://www.linkedin.com/in/hicham-roldan-152a051b6/"}>
+              <li>
+                <a href="#" target="_blank" className="contact_icon">
+                  <i className="c_linkedin" aria-hidden="true">
+                    <FaLinkedinIn />
+                  </i>
+                </a>
+              </li>
+            </Link>
+            <Link to={"https://twitter.com/ash___dev"}>
+              <li>
+                <a href="#" target="_blank" className="contact_icon">
+                  <i className="c_twitter" aria-hidden="true">
+                    <FaTwitter />
+                  </i>
+                </a>
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

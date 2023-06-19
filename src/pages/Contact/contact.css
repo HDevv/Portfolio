@@ -80,3 +80,59 @@ textarea {
 .contact_txt:hover {
   color: #bc9c22;
 }
+
+.social_medias_contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  justify-content: space-between;
+}
+
+.social_medias_contact li a {
+  color: #bc9c22;
+}
+
+.social_medias_contact li {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social_medias_contact li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social_medias_contact li:hover {
+  color: #fff;
+}
+.social_medias_contact li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social_medias_contact li:hover a {
+  color: #000;
+}
