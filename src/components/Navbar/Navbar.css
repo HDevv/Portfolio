@@ -17,3 +17,14 @@ img {
 .nbar {
   font-size: 20px;
 }
+
+/* PORTABLE */
+
+@media (480px <= width <= 720px) {
+  .nbar {
+    width: 90%;
+  }
+  .nbar div {
+    font-size: 12px;
+  }
+}

@@ -5,3 +5,10 @@
   align-items: center;
   height: 100%;
 }
+
+@media (480px <= width <= 720px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
