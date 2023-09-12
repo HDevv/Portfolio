@@ -7,6 +7,9 @@ import WebFit_b from "../../assets/webfit-b.png";
 import Kasa_a from "../../assets/Kasa-a.png";
 import Kasa_b from "../../assets/Kasa-b.png";
 import Ohmyfood from "../../assets/Ohmf.png";
+import laby1 from "../../assets/laby1.png";
+import laby2 from "../../assets/laby2.png";
+import laby3 from "../../assets/laby3.png";
 
 const projects = () => {
   useEffect(() => {
@@ -83,9 +86,7 @@ const projects = () => {
         <h1>Scroll Down</h1>
         <i className="fa fa-angle-down animated bounce"></i>
       </div>
-
       {/* WEBFIT */}
-
       <div className="section animate">
         <div className="middle">
           <img src={WebFit_a} />
@@ -107,9 +108,7 @@ const projects = () => {
           <img src={WebFit_b} />
         </div>
       </div>
-
       {/* KASA */}
-
       <div className="section">
         <div className="middle">
           <img src={Kasa_b} />
@@ -125,9 +124,7 @@ const projects = () => {
           <img src={Kasa_a} />
         </div>
       </div>
-
       {/* OHMYFOOD */}
-
       <div className="section">
         <div className="middle">
           <img src={Ohmyfood} alt="" />
@@ -143,34 +140,25 @@ const projects = () => {
           <img src={Ohmyfood} />
         </div>
       </div>
-
+      {/* Laby */}
       <div className="section">
         <div className="middle">
-          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={laby1} />
         </div>
         <div className="right title">
           <div className="content">
-            <h2>The future is now.</h2>
+            <h2>Maze Game</h2>
             <p>
-              Check out that technology! Imagine if we went back in time and put
-              one of those in the hands of a neanderthal. Do you think they'd be
-              impressed, or just try to club us to death?
+              Game created during my internship at ALECOL, with a view to
+              developing an educational site for childrens
             </p>
           </div>
         </div>
 
         <div className="left tiles">
-          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-          <img
-            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&
-
-fit=crop&w=250&h=250&q=80"
-          />
-          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
+          <img src={laby2} />
         </div>
       </div>
-
       <div className="pro_footer">
         <a href="#top" className="scrollTo">
           <i className="fa fa-angle-up animated bounce"></i>
