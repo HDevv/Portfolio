@@ -1,5 +1,3 @@
-import React from "https://cdn.skypack.dev/react";
-import ReactDOM from "https://cdn.skypack.dev/react-dom";
 import "../skills/skills.css";
 import ResponsiveImg from "../../assets/responsive.svg";
 
@@ -56,8 +54,7 @@ const skills = () => {
       <span>#</span> {text}
     </div>
   );
-
-  const App = () => (
+  return (
     <div className="skills_app">
       <div className="skills_container">
         <header>
@@ -93,8 +90,6 @@ const skills = () => {
       </div>
     </div>
   );
-
-  ReactDOM.render(<App />, document.body);
 };
 
 export default skills;
