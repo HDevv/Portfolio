@@ -8,6 +8,7 @@ const AboutMe = () => {
       <div className="about_txt">
         <p className="about_title">WELCOME</p>
         <ul className="sub_txt">
+          <li>from Reims, Grand Est in France</li>
           <li>
             Full-stack web developer passionate about PROBLEM SOLVING and
             CREATING
@@ -17,9 +18,11 @@ const AboutMe = () => {
             latest updates
           </li>
           <li>
-            I come out of a professional training in which I had to present big
-            projects in front of a jury, carried out with a mentor and also
-            independently finally having my diploma,
+            2023 🎓 come out of a professional training in which I had to
+            present big projects in front of a jury, carried out with a mentor
+            and also independently finally having my diploma,
+            <br /> 2023 June 👉 I had the opportunity to do an internship as a
+            web developer
           </li>
           <li>
             I work from time to time for individuals and continue to train on my

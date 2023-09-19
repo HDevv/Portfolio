@@ -24,6 +24,7 @@ const skills = () => {
     "WIX",
     "Logo",
     "MongoDB",
+    "Boostrap",
   ];
   const DURATION = 15000;
   const ROWS = 5;
